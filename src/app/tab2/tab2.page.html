@@ -10,3 +10,7 @@
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
+
+<ion-content>
+    <ion-searchbar [(ngModel)]="searchTerm" (ionChange)="searchChanged($event)"></ion-searchbar>   
+</ion-content>
