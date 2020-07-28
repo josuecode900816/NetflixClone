@@ -1,0 +1,95 @@
+<ion-header>
+  <ion-toolbar color="netflix-dark">
+    <ion-title>
+      <img class="logo-header" src="../../assets/netflix-logo.png">
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon slot="icon-only" name="tv"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img (click)="openMovie()" class="img-intro" src="../../assets/bright-netflix.jpg">
+  <ion-button (click)="openMovie()" expand="full" color="netflix-dark">VER AHORA</ion-button>
+  
+  <p class="box-title">MI LISTA </p>
+  <div class="scroll-box">
+    <div class="movie">
+      <img (click)="openMovie()" src="../../assets/MV5BM2IxMjFmNWEtNmEyNS00MmNmLTk5ZWYtYTY5YTA1NjgwNDFmXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_UY209_CR3,0,140,209_AL_.jpg">
+    </div>
+    <div class="movie">
+      <img (click)="openMovie()" src="../../assets/MV5BMjA5NzgxODE2NF5BMl5BanBnXkFtZTcwNTI1NTI0OQ@@._V1_UY209_CR0,0,140,209_AL_.jpg">
+    </div>
+    <div class="movie">
+      <img (click)="openMovie()" src="../../assets/MV5BMjc4OTc0ODgwNV5BMl5BanBnXkFtZTcwNjM1ODE0MQ@@._V1_UY209_CR0,0,140,209_AL_.jpg">
+    </div>
+    <div class="movie">
+      <img (click)="openMovie()" src="../../assets/MV5BMTgxMmJhNjItMmFlMS00MWVlLWIyMjktYjUyYTI4MzA0YzgxXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY209_CR3,0,140,209_AL_.jpg">
+    </div>
+    <div class="movie">
+      <img (click)="openMovie()" src="../../assets/MV5BMzg4MDJhMDMtYmJiMS00ZDZmLThmZWUtYTMwZDM1YTc5MWE2XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY209_CR0,0,140,209_AL_.jpg">
+    </div>
+    <div class="movie">
+      <img (click)="openMovie()" src="../../assets/MV5BNGYyZGM5MGMtYTY2Ni00M2Y1LWIzNjQtYWUzM2VlNGVhMDNhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY209_CR0,0,140,209_AL_.jpg">
+    </div>
+    <div class="movie">
+      <img (click)="openMovie()" src="../../assets/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX140_CR0,0,140,209_AL_.jpg">
+    </div>
+  </div>
+  <br>
+
+  <p class="box-title">SELECCIONADO POR USTED</p>
+  <div class="scroll-box">
+    <div class="movie">
+      <img (click)="openMovie()" src="../../assets/MV5BZTNkZmU0ZWQtZjQzMy00YTNmLWFmN2MtZGNkMmU1OThmMGYwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX140_CR0,0,140,209_AL_.jpg">
+    </div>
+    <div class="movie">
+      <img (click)="openMovie()" src="../../assets/MV5BZDVjN2FkYTQtNTBlOC00MjM5LTgzMWEtZWRlNGUyYmNiOTFiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX140_CR0,0,140,209_AL_.jpg">
+    </div>
+    <div class="movie">
+      <img (click)="openMovie()" src="../../assets/MV5BZDMxOGZhNWYtMzRlYy00Mzk5LWJjMjEtNmQ4NDU4M2QxM2UzXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UY209_CR0,0,140,209_AL_.jpg">
+    </div>
+    <div class="movie">
+      <img (click)="openMovie()" src="../../assets/MV5BYzVmMTdjOTYtOTJkYS00ZTg2LWExNTgtNzA1N2Y0MDgwYWFhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX140_CR0,0,140,209_AL_.jpg">
+    </div>
+    <div class="movie">
+      <img (click)="openMovie()" src="../../assets/MV5BYzllMjJkODAtYjMwMi00YmNhLWFhYzAtZjZjODg5YzEwOGUwXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY209_CR1,0,140,209_AL_.jpg">
+    </div>
+    <div class="movie">
+      <img (click)="openMovie()" src="../../assets/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_UY209_CR3,0,140,209_AL_.jpg">
+    </div>
+    <div class="movie">
+      <img (click)="openMovie()" src="../../assets/MV5BOWRiZDIxZjktMTA1NC00MDQ2LWEzMjUtMTliZmY3NjQ3ODJiXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY209_CR5,0,140,209_AL_.jpg">
+    </div>
+  </div>
+  <br>
+
+  <p class="box-title">LOS MAYORES ÉXITOS DE NETFLIX</p>
+  <div class="scroll-box">
+    <div class="movie">
+      <img (click)="openMovie()" src="../../assets/MV5BOTUwODM5MTctZjczMi00OTk4LTg3NWUtNmVhMTAzNTNjYjcyXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX140_CR0,0,140,209_AL_.jpg">
+    </div>
+    <div class="movie">
+      <img (click)="openMovie()" src="../../assets/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX140_CR0,0,140,209_AL_.jpg">
+    </div>
+    <div class="movie">
+      <img (click)="openMovie()" src="../../assets/MV5BNzkxODk0NjEtYjc4Mi00ZDI0LTgyYjEtYzc1NDkxY2YzYTgyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX140_CR0,0,140,209_AL_.jpg">
+    </div>
+    <div class="movie">
+      <img (click)="openMovie()" src="../../assets/MV5BNWQ4MGZlZmYtZjY0MS00N2JhLWE0NmMtOTMwMTk4NDQ4NjE2XkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_UX140_CR0,0,140,209_AL_.jpg">
+    </div>
+    <div class="movie">
+      <img (click)="openMovie()" src="../../assets/MV5BNmVkMGM0ZTQtNDQwNS00NzgwLTkwYWYtNWE3MWFiOGUwODg5XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY209_CR0,0,140,209_AL_.jpg">
+    </div>
+    <div class="movie">
+      <img (click)="openMovie()" src="../../assets/MV5BNjdjNGQ4NDEtNTEwYS00MTgxLTliYzQtYzE2ZDRiZjFhZmNlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX140_CR0,0,140,209_AL_.jpg">
+    </div>
+    <div class="movie">
+      <img (click)="openMovie()" src="../../assets/MV5BNGYyZGM5MGMtYTY2Ni00M2Y1LWIzNjQtYWUzM2VlNGVhMDNhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY209_CR0,0,140,209_AL_.jpg">
+    </div>
+  </div>
+  <br>
+</ion-content>

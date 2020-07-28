@@ -1,0 +1,63 @@
+ion-content{
+    --ion-background-color: var(--ion-color-dark);
+}
+.bg-img {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), #222428),
+    url("../../assets/strangers-things.jpg");
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+
+.img-header {
+    display: flex;
+    justify-content: center;
+}
+.img-header img{
+    height: 200px;
+}
+.tags {
+    display: flex;
+    justify-content: space-around;
+}
+.tags p{
+    color: #9E9E9E;
+    font-weight: 500;
+    font-size: small;
+}
+.tags .green{
+    color: #6ed86e;
+}
+.description {
+    color: white;
+    font-size: smaller;
+}
+.cast {
+    color: grey;
+    font-size: x-small;
+}
+.segment-button-indicator {
+    background-color: red!important;
+}
+
+h4 {
+    color: white;
+    font-size: initial;
+    font-weight: 600;
+    margin-left: 17px;
+}
+
+ion-item {
+    --ion-background-color: transparent!important;
+}
+ion-avatar {
+    width: 100px;
+    height: 50px;
+}
+ion-avatar img {
+    border-radius: 0px;
+}
+ion-label {
+    font-size: small!important;
+}
